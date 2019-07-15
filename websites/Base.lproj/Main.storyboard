@@ -14,7 +14,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="websites" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" userInteractionEnabled="NO" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -23,7 +23,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Unknown-1"/>
                                 <connections>
-                                    <action selector="youtubePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oIw-I5-C0T"/>
+                                    <action selector="youtubePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q2T-KT-McF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5IX-J1-WTe">
+                                <rect key="frame" x="60" y="496" width="295" height="258"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="accounts-5cb8ae96f1641f001f23e7fa-profiles-broswiftie-shqbyzkj-blob"/>
+                                <connections>
+                                    <action selector="nikoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xEB-4a-VhY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -38,5 +46,6 @@
     </scenes>
     <resources>
         <image name="Unknown-1" width="287" height="176"/>
+        <image name="accounts-5cb8ae96f1641f001f23e7fa-profiles-broswiftie-shqbyzkj-blob" width="500" height="500"/>
     </resources>
 </document>

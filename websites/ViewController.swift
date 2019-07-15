@@ -17,8 +17,15 @@ class ViewController: UIViewController {
 
     @IBAction func youtubePressed(_ sender: Any) {
         UIApplication.shared.open(URL(string: "https://www.youtube.com/watch?v=-CmadmM5cOk")! as URL, options: [:], completionHandler: nil)
-        //completion handler basically tells whatever the action is in Swift that its done! So its a callback function. 
+        //completion handler basically tells whatever the action is in Swift that its done! So its a callback function.
     }
+    
+
+    @IBAction func nikoPressed(_ sender: Any) {
+         UIApplication.shared.open(URL(string: "https://www.instagram.com/broswiftie/?hl=en")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    
     
 }
 
